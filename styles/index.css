@@ -1,0 +1,24 @@
+#app_container {
+  margin: 0;
+  padding: 0;
+}
+
+#get_coffee {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#video-background { 
+  position: absolute;
+  bottom: 50%; 
+  right: 50%;
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  overflow: hidden;
+  z-index: -1000; 
+}
